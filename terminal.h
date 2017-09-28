@@ -11,7 +11,7 @@ version 2.0 du 14/09/2017
 
 
 void terminalInit(void);    //initialistation du terminal avec les valeurs d'attributs par defaut
-void terminalPosition (int col, int ligne);//position du curseur
+void terminalPosition (int ligne, int col);//position du curseur
 void terminalCouleur(int text,int font);//couleur du texte et du fond d'ecran
 void terminalEfface(void);				//efface l'ecran de l'hyperterminal
 
